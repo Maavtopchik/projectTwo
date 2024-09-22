@@ -1,0 +1,119 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.buttonBlue{
+
+    background-color: #111B47;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    border: 2px #111B47 solid;
+    color: white;
+
+
+
+}
+
+.footer{
+    background-color: #E7ECFF;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+
+.buttonW{
+    border: 2px #111B47 solid;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+  
+    color: #505F98;
+}
+
+
+
+.ft{
+    min-width: 20%;
+}
+
+
+.box2{
+    font-size: 20px;
+    color: #505F98;
+    
+}
+
+.box1{
+    cursor: pointer;
+    color: #505F98;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box1 > div {
+    margin-right: 1rem; /* или любое другое значение */
+  }
+  
+  .box1 > div:last-child {
+    margin-right: 0; /* убираем отступ для последнего элемента */
+  }
+.Introduce{
+    font-size: 50px;
+}
+
+.lorem{
+    font-size: 18px;
+    color: #505F98;
+}
+
+.loremh{
+    font-size: 20px;
+    
+    color: #111B47;
+}
+
+.fnS{
+    font-size: 45px;
+}
+
+@media (max-width: 995px) {
+  
+    .bodyTwoBoxOne{
+        margin-top: 30px;
+    }
+
+  }
+  .buttonclasss{
+    display: none;
+   
+}
+
+
+  @media (max-width: 500px) {
+    
+    .box1{
+        display: none;
+    }
+
+    .buttonclasss{
+        display: block;
+    }
+    
+    .blockbuttons{
+        display: flex;
+        justify-content: center;
+      }
+
+      .buttonW{
+        margin-left: 5px;
+      }
+
+  }
+
+  
